@@ -50,7 +50,7 @@ Welcome to ``shsk_dot_claude`` Documentation
 .. image:: https://shsk-dot-claude.readthedocs.io/en/latest/_static/shsk_dot_claude-logo.png
     :target: https://shsk-dot-claude.readthedocs.io/en/latest/
 
-Documentation for ``shsk_dot_claude``.
+``shsk_dot_claude`` is a Claude Code plugin providing meta-skills for authoring and maintaining Claude Code skills, subagents, and plugins.
 
 
 .. _install:
