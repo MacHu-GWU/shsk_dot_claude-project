@@ -20,4 +20,4 @@ x.y.z (Backlog)
 **Features and Improvements**
 
 - First release.
-- Add the ``dot-claude`` Claude Code plugin with four meta-skills for authoring and maintaining a project's ``.claude/`` setup: ``create-sub-agent``, ``write-agent-skill``, ``skill-subagent-design``, and ``maintain-claude-plugins``.
+- Add the ``dot-claude`` Claude Code plugin with four meta-skills for authoring and maintaining a project's ``.claude/`` setup: ``create-sub-agent``, ``write-agent-skill``, ``skill-subagent-design``.

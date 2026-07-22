@@ -55,7 +55,6 @@ Welcome to ``shsk_dot_claude`` Documentation
 - ``write-agent-skill`` walks you through authoring a new Agent Skill
 - ``create-sub-agent`` walks you through authoring a new subagent
 - ``skill-subagent-design`` helps you decide when to use a skill versus a subagent and how to wire the two together
-- ``maintain-claude-plugins`` is the authoritative spec for building, versioning, and releasing your own Claude Code plugins across a split-repo plus central-marketplace setup.
 
 
 .. _install:
