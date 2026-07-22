@@ -1,0 +1,15 @@
+{
+  "name": "dot-claude",
+  "description": "...",
+  "version": "0.1.1",
+  "author": {
+    "name": "Sanhe Hu",
+    "email": "husanhe@email.com"
+  },
+  "homepage": "https://github.com/MacHu-GWU/shsk_dot_claude-project",
+  "repository": "https://github.com/MacHu-GWU/shsk_dot_claude-project",
+  "license": "MIT",
+  "keywords": [
+    "claude-code"
+  ]
+}
