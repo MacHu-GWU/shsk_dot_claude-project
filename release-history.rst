@@ -15,6 +15,13 @@ x.y.z (Backlog)
 **Miscellaneous**
 
 
+0.2.1 (2026-08-01)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+**Features and Improvements**
+
+- Add the ``init-claude-messages`` skill to the ``dot-claude`` plugin. It generates a blank, numbered ``claude-code-messages.md`` template at ``.claude/claude-code-messages.md`` for a project, and warns instead of silently overwriting when the file already exists.
+
+
 0.1.1 (2026-07-22)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 **Features and Improvements**
