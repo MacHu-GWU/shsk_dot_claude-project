@@ -1,7 +1,7 @@
 {
   "name": "dot-claude",
   "description": "Meta-skills for authoring and maintaining Claude Code skills, subagents.",
-  "version": "0.1.1",
+  "version": "0.2.1",
   "author": {
     "name": "Sanhe Hu",
     "email": "husanhe@email.com"
