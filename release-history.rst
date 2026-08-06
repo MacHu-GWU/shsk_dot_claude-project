@@ -15,6 +15,13 @@ x.y.z (Backlog)
 **Miscellaneous**
 
 
+0.2.2 (2026-08-06)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+**Features and Improvements**
+
+- Add the ``python-cli-script-standard`` reference to the ``write-agent-skill`` skill in the ``dot-claude`` plugin, specifying the two-layer ``_main``/``main`` structure, ``--arg_name`` keyword style, and exit code conventions that stdlib-only Python CLI scripts must follow. ``SKILL.md`` now points to this reference so skills with such scripts are held to the standard.
+
+
 0.2.1 (2026-08-01)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 **Features and Improvements**
