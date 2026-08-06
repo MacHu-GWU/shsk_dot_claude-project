@@ -7,20 +7,20 @@
         "allow": [
             "Read(========== Read Section ==========)",
             "Read(========== Write Section ==========)",
-            "Write(.claude/*.md)",
-            "Write(.claude/TEACHING.md)",
-            "Write(.claude/skills/*/*.md)",
-            "Write(.claude/skills/*/SKILL.md)",
-            "Write(.claude/skills/*/references/*.md)",
-            "Write(.claude/skills/*/scripts/*.py)",
-            "Write(./**/*.md)",
-            "Write(./README.md)",
-            "Write(./README-cn.md)",
-            "Write(./TICKET.md)",
-            "Write(./CLAUDE.md)",
-            "Write(shsk_dot_claude/**/*.py)",
-            "Write(tests/**/*.py)",
-            "Write(scripts/**/*.py)",
+            "Edit(.claude/*.md)",
+            "Edit(.claude/TEACHING.md)",
+            "Edit(.claude/skills/*/*.md)",
+            "Edit(.claude/skills/*/SKILL.md)",
+            "Edit(.claude/skills/*/references/*.md)",
+            "Edit(.claude/skills/*/scripts/*.py)",
+            "Edit(./**/*.md)",
+            "Edit(./README.md)",
+            "Edit(./README-cn.md)",
+            "Edit(./TICKET.md)",
+            "Edit(./CLAUDE.md)",
+            "Edit(shsk_dot_claude/**/*.py)",
+            "Edit(tests/**/*.py)",
+            "Edit(scripts/**/*.py)",
             "Read(========== Bash Section ==========)",
             "Bash(.venv/bin/python debug/**/*.py)",
             "Bash(.venv/bin/python scripts/**/*.py)",
@@ -35,18 +35,5 @@
             "Read(========== Web Fetch ==========)",
             "WebFetch(domain:raw.githubusercontent.com)"
         ]
-    },
-    "extraKnownMarketplaces": {
-        "sanhe-claude-code-plugin-marketplace": {
-            "source": {
-                "source": "github",
-                "repo": "MacHu-GWU/sanhe_claude_code_plugin_marketplace-project",
-                "ref": "0.2.1"
-            }
-        }
-    },
-    "enabledPlugins": {
-        "coding-agent-docs@sanhe-claude-code-plugin-marketplace": true,
-        "doc-writing-styles@sanhe-claude-code-plugin-marketplace": true
     }
 }
