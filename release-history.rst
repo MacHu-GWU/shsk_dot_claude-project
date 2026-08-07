@@ -15,6 +15,17 @@ x.y.z (Backlog)
 **Miscellaneous**
 
 
+0.3.1 (2026-08-07)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+**Breaking Changes**
+
+- Rename the two authoring skills in the ``dot-claude`` plugin so they share a single verb: ``write-agent-skill`` becomes ``author-agent-skill``, and ``create-sub-agent`` becomes ``author-subagent`` (also adopting the official one-word ``subagent`` spelling). Invoke them as ``/dot-claude:author-agent-skill`` and ``/dot-claude:author-subagent``; the old names no longer resolve.
+
+**Minor Improvements**
+
+- Rewrite the ``description`` of ``author-agent-skill`` and ``author-subagent`` to state what each skill does and when to use it, so Claude can discover them automatically instead of requiring an explicit slash command. Both descriptions now also cover revising an existing skill or subagent, not just creating a new one.
+
+
 0.2.2 (2026-08-06)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 **Features and Improvements**

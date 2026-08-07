@@ -52,8 +52,8 @@ Welcome to ``shsk_dot_claude`` Documentation
 
 ``shsk_dot_claude`` is a Claude Code plugin bundling four meta-skills for building and maintaining a project's own ``.claude/`` setup:
 
-- ``write-agent-skill`` walks you through authoring a new Agent Skill
-- ``create-sub-agent`` walks you through authoring a new subagent
+- ``author-agent-skill`` walks you through authoring a new Agent Skill, or revising an existing one
+- ``author-subagent`` walks you through authoring a new subagent, or revising an existing one
 - ``skill-subagent-design`` helps you decide when to use a skill versus a subagent and how to wire the two together
 
 
