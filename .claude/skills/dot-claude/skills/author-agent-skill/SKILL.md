@@ -5,5 +5,3 @@ description: Author a Claude Code Agent Skill — write a new one or revise an e
 Read references/extend-claude-with-skills.md to understand how to extend Claude with new skills. Then help the user author the agent skill as requested — whether that means creating one from scratch or revising an existing one.
 
 If a skill includes a CLI script (typically a pure-Python, no-third-party-dependency utility), it must follow references/python-cli-script-standard.md.
-
-If it is not yet settled whether the work belongs in a skill or a subagent, resolve that first with the skill-subagent-design skill.
