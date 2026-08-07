@@ -1,7 +1,14 @@
 ---
 name: author-agent-skill
-description: Author a Claude Code Agent Skill — write a new one or revise an existing one. Covers the SKILL.md frontmatter, the name/description contract that drives auto-discovery, progressive disclosure through references/, and bundled scripts. Use when creating a new skill, editing or restructuring an existing SKILL.md, fixing a skill that Claude never triggers, or writing a stdlib-only Python CLI script that a skill invokes.
+description: Write or revise a Claude Code Agent Skill — SKILL.md frontmatter, references/, and bundled scripts.
+argument-hint: "[path-to-skill-dir]"
 ---
-Read references/extend-claude-with-skills.md to understand how to extend Claude with new skills. Then help the user author the agent skill as requested — whether that means creating one from scratch or revising an existing one.
+Target: $ARGUMENTS
 
-If a skill includes a CLI script (typically a pure-Python, no-third-party-dependency utility), it must follow references/python-cli-script-standard.md.
+If no target is given, ask which skill directory to create or revise.
+
+Default location is `<project>/.claude/skills/<name>/`. Never write to `~/.claude/` unless the user asks for it explicitly.
+
+Read references/extend-claude-with-skills.md for the SKILL.md spec, then author or revise the skill as requested — whether that means creating one from scratch or reworking an existing one.
+
+If the skill bundles a CLI script (pure Python, no third-party dependencies), it must follow references/python-cli-script-standard.md.
