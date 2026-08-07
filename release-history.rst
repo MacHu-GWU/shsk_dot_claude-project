@@ -15,6 +15,19 @@ x.y.z (Backlog)
 **Miscellaneous**
 
 
+0.3.2 (2026-08-07)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+**Features and Improvements**
+
+- ``author-agent-skill`` and ``author-subagent`` now take the target as an argument, so you can point them straight at what you want to work on: ``/dot-claude:author-agent-skill .claude/skills/my-skill/``. Invoked with no argument, they ask which skill directory or subagent file to create or revise instead of guessing.
+- Both skills now default to writing into the current project's ``.claude/`` directory, and will not write to the user-level ``~/.claude/`` unless you ask for it explicitly.
+
+**Minor Improvements**
+
+- Trim the two vendored Claude Code reference docs down to the authoring spec, roughly halving both. Dropped material covers product introductions, built-in skill and subagent catalogs, the ``/agents`` UI walkthrough, settings-level admin configuration, runtime-usage topics, and most of the long worked examples. Each file now opens with a provenance header recording its source URL, snapshot date, what was removed, and how to refresh it.
+- Condense the ``description`` of all three authoring skills to a single line, and restructure the ``skill-subagent-design`` body into short paragraphs.
+
+
 0.3.1 (2026-08-07)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 **Breaking Changes**
