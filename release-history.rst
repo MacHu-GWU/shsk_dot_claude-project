@@ -8,6 +8,8 @@ x.y.z (Backlog)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 **Features and Improvements**
 
+- Add the ``skill-base-invoker-design`` skill: one ``<prefix>-base`` skill holds the shared docs, scripts, and assets, and invoker skills load it and read the files they need. Invoke it as ``/dot-claude:skill-base-invoker-design <prefix and goal>`` to design a new family, add an invoker, refactor existing skills into a family, or review one.
+
 **Minor Improvements**
 
 **Bugfixes**

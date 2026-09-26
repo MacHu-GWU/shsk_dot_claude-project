@@ -55,6 +55,7 @@ Welcome to ``shsk_dot_claude`` Documentation
 - ``author-agent-skill`` walks you through authoring a new Agent Skill, or revising an existing one
 - ``author-subagent`` walks you through authoring a new subagent, or revising an existing one
 - ``skill-subagent-design`` helps you decide when to use a skill versus a subagent and how to wire the two together
+- ``skill-base-invoker-design`` designs, scaffolds, extends, or reviews a skill family built as one ``<prefix>-base`` skill that holds the shared docs and scripts, plus invoker skills that each do one job
 
 
 .. _install:
