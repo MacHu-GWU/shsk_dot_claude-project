@@ -17,6 +17,18 @@ x.y.z (Backlog)
 **Miscellaneous**
 
 
+0.4.1 (2026-09-26)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+**Features and Improvements**
+
+- Add the ``skill-base-invoker-design`` skill to the ``dot-claude`` plugin. It helps you build a family of skills that share one ``<prefix>-base<suffix>`` skill, which holds the family's docs, scripts, assets, and workflow, while each invoker skill loads the base, reads the base files it needs, and does one job. This keeps every shared spec in a single place, so skills that work together cannot drift apart. Invoke it as ``/dot-claude:skill-base-invoker-design <prefix and goal>`` to design a new family, add an invoker to an existing one, refactor standalone skills into a family, or review a family. Before writing anything it confirms the names and the base/invoker split with you, and when a request does not fit the pattern it suggests ordinary skills instead.
+- The skill ships a ``base-invoker-agent-skill-family-pattern`` reference. It keeps the required rules to a short list (a shared prefix and suffix, a base always named ``<prefix>-base<suffix>``, a base that owns shared material but no single action, and invokers that each do one thing) and treats the rest as recommendations. It explains what belongs in the base versus an invoker: an invoker's own interaction style stays local, while the family workflow of which invoker runs before or after which goes in the base. It also gives lightweight base and invoker ``SKILL.md`` shapes.
+
+**Miscellaneous**
+
+- List ``skill-base-invoker-design`` in the README.
+
+
 0.3.2 (2026-08-07)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 **Features and Improvements**
